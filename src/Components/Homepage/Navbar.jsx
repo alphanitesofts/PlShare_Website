@@ -21,49 +21,49 @@ const Navbar = () => {
       </nav> */}
 
 
-      <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg fixed-top  bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"> <img className="me-3 d-inline-block" src="assets/img/gallery/logo.png" style={{ height: '50px' }} alt='logo' /></a>
+          {/* <img className="me-3 d-inline-block" src="assets/img/gallery/logo.png" style={{ height: '50px' }} alt='logo' /> */}
+          <a className="navbar-brand" style={{ color: '#bc1f2d' }} href="#">Power Level Shares</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item  ">
-                <a className="nav-link text-dark active m-1" aria-current="page" href="#">Home</a>
+                <a className="nav-link NavbarLinks active m-1" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-dark m-1" href="#">Approach</a>
+                <a className="nav-link NavbarLinks m-1" href="#">Approach</a>
+              </li>
+              {/* <li className="nav-item">
+                <a className="nav-link NavbarLinks m-1" href="#"></a>
+              </li> */}
+
+              <li className="nav-item dropdown">
+                <a className="nav-link NavbarLinks m-1 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a className="dropdown-item" href="#">Stock Trading</a></li>
+                  <li><a className="dropdown-item" href="#">Real Estate</a></li>
+                  <li><a className="dropdown-item" href="#">Crops</a></li>
+                </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark m-1" href="#">Team</a>
+                <a className="nav-link NavbarLinks m-1" href="#">Markets</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark m-1" href="#">Process</a>
+                <a className="nav-link NavbarLinks m-1" href="#">Funds</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark m-1" href="#">Markets</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-dark m-1" href="#">Funds</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-dark m-1" href="#">Contact</a>
+                <a className="nav-link NavbarLinks m-1" href="#">Contact</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white m-1 btn btn-danger" href="#">Get Funded Today</a>
               </li>
 
-              {/* <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> */}
+
             </ul>
           </div>
         </div>

@@ -3678,8 +3678,8 @@ fieldset:disabled .btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #bc1f2d;
+  border-color: #bc1f2d;
 }
 
 .btn-warning:hover {
@@ -3713,8 +3713,8 @@ fieldset:disabled .btn {
 
 .btn-warning:disabled, .btn-warning.disabled {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #bc1f2d;
+  border-color: #bc1f2d;
 }
 
 .btn-danger {
@@ -3977,14 +3977,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  color: #FE9A52;
-  border-color: #FE9A52;
+  color: #bc1f2d;
+  border-color: #bc1f2d;
 }
 
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #bc1f2d;
+  border-color: #bc1f2d;
 }
 
 .btn-check:focus + .btn-outline-warning, .btn-outline-warning:focus {
@@ -3995,8 +3995,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-warning,
 .btn-check:active + .btn-outline-warning, .btn-outline-warning:active, .btn-outline-warning.active, .btn-outline-warning.dropdown-toggle.show {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #bc1f2d;
+  border-color: #bc1f2d;
 }
 
 .btn-check:checked + .btn-outline-warning:focus,
@@ -4006,7 +4006,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning:disabled, .btn-outline-warning.disabled {
-  color: #FE9A52;
+  color: #bc1f2d;
   background-color: transparent;
 }
 
@@ -7317,7 +7317,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-  color: #FE9A52;
+  color: #bc1f2d;
 }
 
 .link-warning:hover, .link-warning:focus {
@@ -7821,7 +7821,7 @@ fieldset:disabled .btn {
 }
 
 .border-warning {
-  border-color: #FE9A52 !important;
+  border-color: #bc1f2d !important;
 }
 
 .border-danger {
@@ -9496,7 +9496,7 @@ fieldset:disabled .btn {
 }
 
 .text-warning {
-  color: #FE9A52 !important;
+  color: #bc1f2d !important;
 }
 
 .text-danger {
@@ -9632,7 +9632,7 @@ fieldset:disabled .btn {
 }
 
 .bg-warning {
-  background-color: #FE9A52 !important;
+  background-color: #bc1f2d !important;
 }
 
 .bg-danger {
@@ -17479,12 +17479,12 @@ ul {
 }
 
 .text-gradient {
-  background: -o-linear-gradient(-40deg, #fe9a52, #ff5748);
-  background: linear-gradient(-50deg, #fe9a52, #ff5748);
+  background: -o-linear-gradient(-40deg, #ff5748, #bc1f2d);
+  background: linear-gradient(-50deg, #ff5748, #bc1f2d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  color: #FE9A52;
+  color: #bc1f2d;
 }
 
 /*-----------------------------------------------
@@ -17554,8 +17554,8 @@ ul {
 }
 
 .bg-danger-gradient {
-  background: -o-linear-gradient(-241.3deg, #FE9A52 -2.93%, #FF5748 88.81%);
-  background: linear-gradient(-208.7deg, #FE9A52 -2.93%, #FF5748 88.81%);
+  background: -o-linear-gradient(-241.3deg, #FF5748 -2.93%,  #bc1f2d 88.81%);
+  background: linear-gradient(-208.7deg, #FF5748 -2.93%, #bc1f2d 88.81%);
 }
 
 .bg-warning-gradient {
@@ -18026,7 +18026,7 @@ ul {
 }
 
 .icon-warning {
-  color: #FE9A52;
+  color: #bc1f2d;
 }
 
 .icon-danger {
@@ -18080,8 +18080,8 @@ ul {
 .btn-collab {
   color: #FFF;
   font-weight: bold;
-  background-image: -o-linear-gradient(-40deg, #fe9a52, #ff5748);
-  background-image: linear-gradient(-50deg, #fe9a52, #ff5748);
+  background-image: -o-linear-gradient(-40deg, #ff5748, #bc1f2d);
+  background-image: linear-gradient(-50deg,  #ff5748, #bc1f2d);
 }
 
 .btn-collab-outline {
@@ -18098,8 +18098,8 @@ ul {
   bottom: 0;
   background-image: inherit;
   background-size: auto;
-  background: -o-linear-gradient(-40deg, #FD7D72, #FE9A52);
-  background: linear-gradient(-50deg, #FD7D72, #FE9A52);
+  background: -o-linear-gradient(-40deg, #bc1f2d , #bc1f2d);
+  background: linear-gradient(-50deg, #bc1f2d , #bc1f2d );
   -webkit-mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
   mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
 }

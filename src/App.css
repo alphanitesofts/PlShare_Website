@@ -3,9 +3,106 @@
   height: 600px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 880px) {
   .VideoSection {
     height: 400px;
-    width: 400px;
+    width: 390px;
   }
+}
+
+.NavbarLinks {
+  color: #000;
+}
+
+.NavbarLinks:hover {
+  color: #bc1f2d;
+}
+
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited {
+  background-color: #bc1f2d !important;
+}
+.btn-danger:hover {
+  background-color: #000 !important;
+}
+
+.description {
+  color: #bc1f2d;
+}
+
+.textDemo {
+  text-align: justify;
+}
+
+.ImagePlan {
+  width: 500px;
+  height: 270px;
+}
+
+@media screen and (max-width: 880px) {
+  .ImagePlan {
+    width: 270px;
+    height: 170px;
+  }
+}
+
+.containerx {
+  position: relative;
+}
+
+.textBlock {
+  position: absolute;
+  /* bottom: 280px;
+  right: 20px; */
+  /* background-color: black; */
+  color: #000;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+/* PRICING */
+
+.cardx {
+  border: none;
+  padding: 10px 50px;
+}
+
+.cardx::after {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cardx:hover {
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  backface-visibility: hidden;
+  will-change: transform;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+}
+
+.cardx:hover::after {
+  opacity: 1;
+}
+
+.cardx:hover .btn-outline-primary {
+  color: white;
+  background: #007bff;
+}
+
+/* prrojects */
+
+.projectsCard{
+  
+}
+
+.projectsCard:hover{
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  backface-visibility: hidden;
+  will-change: transform;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
 }
