@@ -3,6 +3,8 @@ import Image from '.././SourceFiles/contact.jpg'
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import conference from './../SourceFiles/conference.jpg'
+import forms from './../SourceFiles/forms.jpg'
 
 toast.configure()
 const ContactUs = () => {
@@ -29,14 +31,13 @@ const ContactUs = () => {
             <div className='card'>
                 <div className='row g-0'>
                     <div className='col-lg-3'>
-
-                        {/* <img src={Image} className='imageContact' alt="" /> */}
+                        <img src={forms} className=' imageContact' alt="" />
                     </div>
 
                     <div className='col-lg-6 me-4 ms-auto'>
 
                         <div className='card-body'>
-                            <h1 className='card-title'>CONTACT US</h1>
+                            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5">Contact Us</h6>
                             <p>Please fill out the form and someone will be in touch shortly. If you are in need of a quote, please call or use the funding form here.</p>
 
                             <form ref={form} onSubmit={sendEmail} method="post" role="form">

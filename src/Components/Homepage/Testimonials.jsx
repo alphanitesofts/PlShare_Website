@@ -1,16 +1,18 @@
 import React from 'react'
+import CountUp from 'react-countup';
 
 const Testimonials = () => {
   return (
-    <div>
-        <section className="py-6 bg-soft-warning">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-auto col-lg-12 d-lg-flex justify-content-center align-items-center justify-content-lg-between"><img className="m-2" src="assets/img/gallery/netflix.png" height={28} alt="brands" /><img className="m-2" src="assets/img/gallery/facebook.png" height={30} alt="brands" /><img className="m-2" src="assets/img/gallery/freelancer.png" height={38} alt="brands" /><img className="m-2" src="assets/img/gallery/mailbluster.png" height={38} alt="brands" /><img className="m-2" src="assets/img/gallery/theme-wagon.png" height={38} alt="brands" /></div>
-                        </div>
-                    </div>
-                    {/* end of .container*/}
-                </section>
+    <div className=''>
+      <section className="py-6 mt-5 mb-5  backgroundImage">
+        <div className="container">
+          <div className='text-white text-center'>
+              <h2 className='text-white'><b>We Are Offering Investment Returns from 40% To 70% Per Month</b></h2>
+              <p className=''>Every client is offered 1-year contract and it is responsibility of PLS to handle investments and secure it keeping your profits a steady flow.</p>
+          </div>
+        </div>
+        {/* end of .container*/}
+      </section>
     </div>
   )
 }

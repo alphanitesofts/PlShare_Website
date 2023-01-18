@@ -31,6 +31,11 @@
   color: #bc1f2d;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .textDemo {
   text-align: justify;
 }
@@ -66,6 +71,7 @@
 .cardx {
   border: none;
   padding: 10px 50px;
+  border-radius: 10px;
 }
 
 .cardx::after {
@@ -93,16 +99,49 @@
   background: #007bff;
 }
 
-/* prrojects */
-
-.projectsCard{
-  
+.cardx:hover .btn-outline-primary {
+  color: white;
+  background: #007bff;
 }
 
-.projectsCard:hover{
+/* prrojects */
+
+.projectsCard {
+}
+
+.projectsCard:hover {
   transform: scale(1.02, 1.02);
   -webkit-transform: scale(1.02, 1.02);
   backface-visibility: hidden;
   will-change: transform;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+}
+
+.imageContact {
+  max-height: 700px;
+  width: 590px;
+}
+
+@media screen and (max-width: 880px) {
+  .imageContact {
+    width: 400px;
+    height: 570px;
+  }
+}
+
+.backgroundImage {
+  background-image: url(./Components/SourceFiles/hands.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investingPictures {
+  height: 200px;
+  max-width: 290px;
 }

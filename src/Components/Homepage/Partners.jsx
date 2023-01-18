@@ -17,7 +17,7 @@ const Partners = () => {
                     </div> */}
 
                     <div className='row mt-5 m-5 '>
-                        <div className='col-lg-4 text-center'>
+                        <div className='col-lg-4  text-center'>
                             <div className="badge bg-soft-danger p-3 rounded-3 description"> <i className='fa-solid fa-5x fa-eye' /> </div>
                             <div className='mt-4'>
                                 <h4>Our Vision</h4>
@@ -32,7 +32,7 @@ const Partners = () => {
                         <div className='col-lg-4 text-center'>
                             <div className="badge bg-soft-danger p-3 rounded-3 description"><i className='fa-solid fa-5x fa-rocket' /></div>
                             <div className='mt-4'>
-                                <h4>Our Vision</h4>
+                                <h4>Our Mission</h4>
                                 <p className='textDemo'>To provide best quality financial planning the individuals and businesses we serve and professional client service experience. Our goal is to provide you with guidance that can help you recognize and better define your economic goals. We work hard to create an eloquent and respected long-term relationship with our customers and businesses.</p>
                             </div>
                         </div>

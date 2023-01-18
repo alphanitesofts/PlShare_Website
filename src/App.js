@@ -22,7 +22,7 @@ function App() {
         <Partners />
         <Projects />
         <FinancialPlan />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <Pricing />
         {/* <Quoets /> */}
         <FAQs />

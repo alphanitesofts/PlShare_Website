@@ -317,10 +317,7 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
-svg {
-  vertical-align: middle;
-}
+
 
 table {
   caption-side: bottom;
@@ -628,10 +625,10 @@ progress {
   content: "\2014\00A0";
 }
 
-.img-fluid {
+/* .img-fluid {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .img-thumbnail {
   padding: 0.25rem;

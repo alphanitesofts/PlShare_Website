@@ -63,7 +63,6 @@ const Navbar = () => {
                 <a className="nav-link text-white m-1 btn btn-danger" href="#">Get Funded Today</a>
               </li>
 
-
             </ul>
           </div>
         </div>
