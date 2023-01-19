@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import conference from './../SourceFiles/conference.jpg'
 import forms from './../SourceFiles/forms.jpg'
+import formImg from './../SourceFiles/Form.png'
 
 toast.configure()
 const ContactUs = () => {
@@ -30,8 +31,8 @@ const ContactUs = () => {
         <div>
             <div className='card' style={{ backgroundColor: '#161616' }}>
                 <div className='row g-0'>
-                    <div className='col-lg-3'>
-                        <img src={forms} className=' imageContact' alt="" />
+                    <div className='col-lg-3 mx-auto'>
+                        <img src={formImg} className=' imageContact' alt="" />
                     </div>
 
                     <div className='col-lg-6 me-4 ms-auto'>

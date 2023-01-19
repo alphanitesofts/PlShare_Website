@@ -3,6 +3,7 @@ import { useState, useRef } from 'react';
 import ReadMoreReact from 'read-more-react';
 import { useCountUp } from 'react-countup';
 import CountUp from 'react-countup';
+import Phone from './../SourceFiles/phone.png'
 
 
 
@@ -81,7 +82,7 @@ const Partners = () => {
             <section className="py-6" style={{ background: 'linear-gradient(180deg, #161616 -54.51%, #181818 99.98%)' }}>
                 <div className="container">
                     <div className="row flex-center">
-                        <div className="col-md-6 col-lg-4 text-center mb-6 mb-md-0 order-0 order-md-1"><img className="shadow-collab" src="assets/img/gallery/corroboration.png" width={300} alt="..." style={{ borderRadius: '3rem' }} /></div>
+                        <div className="col-md-6 col-lg-4 text-center mb-6 mb-md-0 order-0 order-md-1"><img className="shadow-collab" src={Phone} width={300} alt="..." style={{ borderRadius: '3rem' }} /></div>
                         <div className="col-md-6 text-center text-md-start mb-6 offset-lg-1">
                             <h6 className="fs-0 text-uppercase fw-bold text-primary">corroboration</h6>
                             <h6 className="fw-bold fs-3 fs-lg-5 lh-sm" style={{ color: '#cfcfcf' }}>Keeping All Elements Together To Present The Project</h6>

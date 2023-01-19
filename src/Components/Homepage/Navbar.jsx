@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './../SourceFiles/logo.png'
+import Logo from './../SourceFiles/logopl.png'
 
 const Navbar = () => {
   return (
@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: '#202020' }}>
         <div className="container-fluid">
           {/* <img className="me-3 d-inline-block" src="assets/img/gallery/logo.png" style={{ height: '50px' }} alt='logo' /> */}
-          <a className="navbar-brand" style={{ color: '#3EB8B4' }} href="#"><img src={Logo} style={{ height: '50px', width: '50px' }} alt="" /></a>
+          <a className="navbar-brand" style={{ color: '#3EB8B4' }} href="#"><img src={Logo} style={{ height: '50px', width: '170px' }} alt="" /></a>
           <button className="navbar-toggler" style={{ backgroundColor: '#3EB8B4' }} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             {/* <span className="navbar-toggler-icon" /> */}
             <i className='fa-solid fa-chevron-down' />
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <a className="nav-link NavbarLinks m-1 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Projects
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
                   <li><a className="dropdown-item" href="#">Stock Trading</a></li>
                   <li><a className="dropdown-item" href="#">Real Estate</a></li>
                   <li><a className="dropdown-item" href="#">Crops</a></li>

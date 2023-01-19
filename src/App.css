@@ -119,8 +119,9 @@ body {
 }
 
 .imageContact {
-  max-height: 700px;
-  width: 590px;
+  max-height: 400px;
+  width: 400px;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 880px) {
@@ -170,6 +171,6 @@ body {
   color: #cfcfcf;
 }
 .shadowText{
-  color: #161616;
-  text-shadow: 4px 4px rgb(62,184,180);
+  color: #3EB8B4;
+  text-shadow: 4px 4px #000;
 }
