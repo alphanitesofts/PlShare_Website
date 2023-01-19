@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from './../SourceFiles/logo.png'
 
 const Navbar = () => {
   return (
@@ -21,14 +22,15 @@ const Navbar = () => {
       </nav> */}
 
 
-      <nav className="navbar navbar-expand-lg fixed-top  bg-light">
+      <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: '#202020' }}>
         <div className="container-fluid">
           {/* <img className="me-3 d-inline-block" src="assets/img/gallery/logo.png" style={{ height: '50px' }} alt='logo' /> */}
-          <a className="navbar-brand" style={{ color: '#bc1f2d' }} href="#">Power Level Shares</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
+          <a className="navbar-brand" style={{ color: '#3EB8B4' }} href="#"><img src={Logo} style={{ height: '50px', width: '50px' }} alt="" /></a>
+          <button className="navbar-toggler" style={{ backgroundColor: '#3EB8B4' }} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            {/* <span className="navbar-toggler-icon" /> */}
+            <i className='fa-solid fa-chevron-down' />
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item  ">
                 <a className="nav-link NavbarLinks active m-1" aria-current="page" href="#">Home</a>

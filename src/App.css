@@ -11,24 +11,24 @@
 }
 
 .NavbarLinks {
-  color: #000;
+  color: #fff;
 }
 
 .NavbarLinks:hover {
-  color: #bc1f2d;
+  color: #3eb8b4;
 }
 
 .btn-danger,
 .btn-danger:active,
 .btn-danger:visited {
-  background-color: #bc1f2d !important;
+  background-color: #3eb8b4 !important;
 }
 .btn-danger:hover {
   background-color: #000 !important;
 }
 
 .description {
-  color: #bc1f2d;
+  color: #3eb8b4;
 }
 
 html,
@@ -72,6 +72,8 @@ body {
   border: none;
   padding: 10px 50px;
   border-radius: 10px;
+  background-color: #202020;
+  border: 1px solid #3eb8b4;
 }
 
 .cardx::after {
@@ -87,26 +89,22 @@ body {
   -webkit-transform: scale(1.02, 1.02);
   backface-visibility: hidden;
   will-change: transform;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+  /* box-shadow: 0 1rem 3rem  !important; */
+  box-shadow: 1px 1px 21px 3px rgba(62, 184, 180, 0.75);
+  -webkit-box-shadow: 1px 1px 21px 3px rgba(62, 184, 180, 0.75);
+  -moz-box-shadow: 1px 1px 21px 3px rgba(62, 184, 180, 0.75);
 }
 
 .cardx:hover::after {
   opacity: 1;
 }
 
-.cardx:hover .btn-outline-primary {
-  color: white;
-  background: #007bff;
-}
-
-.cardx:hover .btn-outline-primary {
-  color: white;
-  background: #007bff;
-}
-
 /* prrojects */
 
 .projectsCard {
+  background-color: #202020;
+  color: #cfcfcd;
+  z-index: 1000;
 }
 
 .projectsCard:hover {
@@ -114,7 +112,10 @@ body {
   -webkit-transform: scale(1.02, 1.02);
   backface-visibility: hidden;
   will-change: transform;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+  /* box-shadow: 0 1rem 3rem #166c67 !important; */
+  box-shadow: 8px 4px 28px 6px rgba(62, 184, 180, 0.56);
+  -webkit-box-shadow: 8px 4px 28px 6px rgba(62, 184, 180, 0.56);
+  -moz-box-shadow: 8px 4px 28px 6px rgba(62, 184, 180, 0.56);
 }
 
 .imageContact {
@@ -144,4 +145,31 @@ body {
 .investingPictures {
   height: 200px;
   max-width: 290px;
+  border-radius: 10px 10px 0 0;
+}
+
+.headx {
+  color: #3eb8b4;
+}
+
+.bodyx {
+  background-color: #070b0e;
+}
+
+.fontx {
+  color: #cfcfcf;
+}
+.partnerCard {
+  background-color: #202020;
+  border-radius: 10px;
+  box-shadow: -11px 19px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 19px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 19px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.card-title {
+  color: #cfcfcf;
+}
+.shadowText{
+  color: #161616;
+  text-shadow: 4px 4px rgb(62,184,180);
 }

@@ -4,11 +4,11 @@ const FinancialPlan = () => {
     return (
         <div>
             {/* <hr /> */}
-            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center">About Us</h6>
+            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center text-primary">About Us</h6>
             <div className='row mt-4 mb-5 m-5'>
                 <div className='col-lg-6 containerx'>
                     {/* <h5><b>Financial Planning</b></h5> */}
-                    <h1 className=''>Good Financial Planning Is Vital To Business Success</h1>
+                    <h1 className='' style={{color:'#cfcfcf'}}>Good Financial Planning Is Vital To Business Success</h1>
                     <img src={image} className='ImagePlan img-fluid' alt="" />
                 </div>
                 <div className='col-lg-6'>
