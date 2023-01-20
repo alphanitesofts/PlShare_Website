@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './../SourceFiles/logopl.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -47,7 +48,7 @@ const Navbar = () => {
                   Projects
                 </a>
                 <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
-                  <li><a className="dropdown-item" href="#">Stock Trading</a></li>
+                  <li><Link to='/Projects' className="dropdown-item" href="#">Stock Trading</Link></li>
                   <li><a className="dropdown-item" href="#">Real Estate</a></li>
                   <li><a className="dropdown-item" href="#">Crops</a></li>
                 </ul>

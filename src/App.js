@@ -1,16 +1,17 @@
 import "./App.css";
-import Navbar from "./Components/Homepage/Navbar";
+import Navbar from "./Components/Body/Navbar";
 import Intro from "./Components/Homepage/Intro";
 import Testimonials from "./Components/Homepage/Testimonials";
 import Partners from "./Components/Homepage/Partners";
 import Quoets from "./Components/Homepage/Quoets";
 import FAQs from "./Components/Homepage/FAQs";
-import Footer from "./Components/Homepage/Footer";
+import Footer from "./Components/Body/Footer";
 import VideoSection from "./Components/Homepage/VideoSection";
 import ContactUs from "./Components/Homepage/ContactUs";
 import FinancialPlan from "./Components/Homepage/FinancialPlan";
 import Pricing from "./Components/Homepage/Pricing";
 import Projects from "./Components/Homepage/Projects";
+import Reviews from "./Components/Homepage/Reviews";
 
 function App() {
   return (
@@ -24,10 +25,12 @@ function App() {
         <FinancialPlan />
         <Testimonials />
         <Pricing />
+        <Reviews/>
         {/* <Quoets /> */}
         <FAQs />
         <ContactUs />
         <Footer />
+        <Projects/>
       </main>
     </div>
   );

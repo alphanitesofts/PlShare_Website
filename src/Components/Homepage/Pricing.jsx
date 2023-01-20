@@ -12,10 +12,10 @@ const Pricing = () => {
     return (
         <div>
 
-            <div className='fw-bold fs-5 display-3 lh-sm mb-5 text-center container'>
+            <div className='fw-bold fs-5 display-3 lh-sm text-center container'>
                 <p className='text-primary'>Investment Plans</p>
-                <h6 style={{ color: '#cfcfcf' }}>Investment Plans are designed for best interest of our clients. There are 07 investment plans which may suite you. Please choose one of the following plans.</h6>
             </div>
+            <p className='textDemo text-center container' style={{ color: '#cfcfcf' }}>Investment Plans are designed for best interest of our clients. <br /> There are 07 investment plans which may suite you. Please choose one of the following plans.</p>
 
             {/* <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center">Investments Plans</h6> */}
             {/* <p className='text-center'>Investment Plans are designed for best interest of our clients. Following are 07 investment plans which may suite you. Please choose one of the plans.</p> */}

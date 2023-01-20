@@ -7,7 +7,7 @@ import farming from './../SourceFiles/farming.jpg'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='container'>
 
             <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center headx" style={{ marginTop: '100px' }}>Where We Invest?</h6>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '.././SourceFiles/trading.jpg'
+import image from '.././SourceFiles/graphing.jpg'
 const FinancialPlan = () => {
     return (
         <div>

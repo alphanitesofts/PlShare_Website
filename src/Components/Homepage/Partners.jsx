@@ -22,8 +22,7 @@ const Partners = () => {
                             <p className="my-4 fs-1 pe-xl-8">Bring all your document under one place and make it easy to share with other in no time. That makes the whole process comfortable.</p><a className="btn hover-top btn-collab" href="#" role="button">Learn more</a>
                         </div>
                     </div> */}
-
-                    <div className='row  m-5 '>
+                    <div className='row   m-5 '>
                         <div className='col-lg-4 text-center hover-top' >
                             <div className='card mb-3 partnerCard '>
                                 <div className='card-body'>
@@ -79,54 +78,7 @@ const Partners = () => {
                 </div>
             </section>
 
-            <section className="py-6" style={{ background: 'linear-gradient(180deg, #161616 -54.51%, #181818 99.98%)' }}>
-                <div className="container">
-                    <div className="row flex-center">
-                        <div className="col-md-6 col-lg-4 text-center mb-6 mb-md-0 order-0 order-md-1"><img className="shadow-collab" src={Phone} width={300} alt="..." style={{ borderRadius: '3rem' }} /></div>
-                        <div className="col-md-6 text-center text-md-start mb-6 offset-lg-1">
-                            <h6 className="fs-0 text-uppercase fw-bold text-primary">corroboration</h6>
-                            <h6 className="fw-bold fs-3 fs-lg-5 lh-sm" style={{ color: '#cfcfcf' }}>Keeping All Elements Together To Present The Project</h6>
-                            <p className="my-4 fs-1 pe-xl-8">While the project is shared between several members, the resources need to be at one place to maintain the clarity of the project, and flexibility among developers.</p><a className="btn hover-top btn-collab" href="#" role="button">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* <div className="row mt-5 flex-center" style={{ backgroundColor: '#3EB8B4' }}>
-                    <CountUp end={550} >
-                        {({ countUpRef, start }) => (
-                            <div className='col-lg-4 text-center' onMouseOver={start}>
-                                <div>
-                                    <h1><span ref={countUpRef} /></h1>
-                                    <h3>LOANS FUNDED SINCE INCEPTION</h3>
-                                </div>
-                            </div>
-                        )}
-                    </CountUp>
-
-                    <CountUp start={0} duration={5} end={310000000} >
-                        {({ countUpRef, start }) => (
-                            <div className='col-lg-4 text-center' onMouseOver={start}>
-                                <div>
-                                    <h1><span ref={countUpRef} /></h1>
-                                    <h3>TOTAL $ LOAN FUNDING</h3>
-                                </div>
-                            </div>
-                        )}
-                    </CountUp>
-
-                    <CountUp start={0} end={1384056} >
-                        {({ countUpRef, start }) => (
-                            <div className='col-lg-4 text-center' onMouseOver={start}>
-                                <div>
-                                    <h1><span ref={countUpRef} /></h1>
-                                    <h3>AVERAGE $ LOAN SIZE</h3>
-                                </div>
-                            </div>
-                        )}
-                    </CountUp>
-
-                </div> */}
-            </section>
+            
 
         </div>
     )
