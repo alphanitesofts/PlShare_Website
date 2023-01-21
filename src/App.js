@@ -1,36 +1,24 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from "./Components/Body/Navbar";
-import Intro from "./Components/Homepage/Intro";
-import Testimonials from "./Components/Homepage/Testimonials";
-import Partners from "./Components/Homepage/Partners";
-import Quoets from "./Components/Homepage/Quoets";
-import FAQs from "./Components/Homepage/FAQs";
 import Footer from "./Components/Body/Footer";
-import VideoSection from "./Components/Homepage/VideoSection";
-import ContactUs from "./Components/Homepage/ContactUs";
-import FinancialPlan from "./Components/Homepage/FinancialPlan";
-import Pricing from "./Components/Homepage/Pricing";
-import Projects from "./Components/Homepage/Projects";
-import Reviews from "./Components/Homepage/Reviews";
+import Home from "./Components/Main/Home";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
     <div>
       <main className="main" id="top">
-        <Navbar />
-        <VideoSection />
-        <Intro />
-        <Partners />
-        <Projects />
-        <FinancialPlan />
-        <Testimonials />
-        <Pricing />
-        <Reviews/>
-        {/* <Quoets /> */}
-        <FAQs />
-        <ContactUs />
-        <Footer />
-        <Projects/>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Projects" element={<Projects />} />
+            
+          </Routes>
+          <Footer />
+        </Router>
       </main>
     </div>
   );

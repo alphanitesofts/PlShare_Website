@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item  ">
-                <a className="nav-link NavbarLinks active m-1" aria-current="page" href="#">Home</a>
+                <Link to='/' className="nav-link NavbarLinks active m-1" aria-current="page">Home</Link>
               </li>
               <li className="nav-item ">
                 <a className="nav-link NavbarLinks m-1" href="#">Approach</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   Projects
                 </a>
                 <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link to='/Projects' className="dropdown-item" href="#">Stock Trading</Link></li>
+                  <li><Link to='/Projects'  className="dropdown-item">Stock Trading</Link></li>
                   <li><a className="dropdown-item" href="#">Real Estate</a></li>
                   <li><a className="dropdown-item" href="#">Crops</a></li>
                 </ul>

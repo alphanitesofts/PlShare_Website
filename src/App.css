@@ -209,7 +209,12 @@ body {
   border-color: var(--primary);
 }
 
-.heading{
+.bgheading{
   background-color: #3EB8B4;
-  height: 300px;
+  height: 400px;
+  z-index: -10;
+}
+.headingtext{
+  z-index: 10;
+  padding-top: 160px;
 }

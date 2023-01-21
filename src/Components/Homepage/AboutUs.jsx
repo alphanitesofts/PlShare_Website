@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '.././SourceFiles/graphing.jpg'
-const FinancialPlan = () => {
+const AboutUs = () => {
     return (
         <div>
             {/* <hr /> */}
@@ -8,7 +8,7 @@ const FinancialPlan = () => {
             <div className='row mt-4 mb-5 m-5'>
                 <div className='col-lg-6 containerx'>
                     {/* <h5><b>Financial Planning</b></h5> */}
-                    <h1 className='' style={{color:'#cfcfcf'}}>Good Financial Planning Is Vital To Business Success</h1>
+                    <h1 className='' style={{ color: '#cfcfcf' }}>Good Financial Planning Is Vital To Business Success</h1>
                     <img src={image} className='ImagePlan img-fluid' alt="" />
                 </div>
                 <div className='col-lg-6'>
@@ -23,4 +23,4 @@ const FinancialPlan = () => {
     )
 }
 
-export default FinancialPlan
+export default AboutUs

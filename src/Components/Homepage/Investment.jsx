@@ -5,7 +5,7 @@ import crops from './../SourceFiles/crops.jpg'
 import building from './../SourceFiles/building.jpg'
 import farming from './../SourceFiles/farming.jpg'
 
-const Projects = () => {
+const Investment = () => {
     return (
         <div className='container'>
 
@@ -49,4 +49,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Investment
