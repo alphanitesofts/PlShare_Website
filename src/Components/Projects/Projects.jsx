@@ -1,8 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import image from '.././SourceFiles/graphing.jpg'
 import coins from '../SourceFiles/coins.jpg'
 
 const Projects = () => {
+
+    const [type, setType] = useState('')
+
+    const getLink = () => {
+        const url = `${window.location.href}`;
+        const part = url.split("?");
+        const path = part[1];
+        setType(path);
+    }
+
+    const handleClickScroll = () => {
+        const element = document.getElementById(`${type}`);
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
+    console.log(type)
+
+    useEffect(() => {
+        getLink();
+        // scrollFunction();
+        handleClickScroll()
+    }, [type])
 
     return (
         <div>
@@ -15,9 +41,9 @@ const Projects = () => {
                     <p className='textDemo text-center container' style={{ color: '#161616' }}>We invest in multiple categories. There are 07 investment plans which may suite you.<br /> Please choose one of the following plans.</p>
                 </div>
             </div>
-            
+
             <div>
-                <div className='row mt-5 mb-5 m-5'>
+                <div className='row mt-5 mb-5 m-5' id='stock'>
                     <div className='col-lg-5 containerx'>
                         <img src={coins} className='ImagePlan img-fluid' alt="" />
                     </div>
@@ -31,7 +57,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='row mt-5 mb-5 m-5'>
+                <div className='row mt-5 mb-5 m-5' id='realEstate'>
                     <div className='col-lg-7'>
                         <h1 className='' style={{ color: '#cfcfcf' }}>Stocks and Shares Trading:</h1>
                         <p className='textDemo'>How Stock market works?</p>
@@ -45,7 +71,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='row mt-4 mb-5 m-5'>
+                <div className='row mt-4 mb-5 m-5' id='crops'>
                     <div className='col-lg-5 containerx'>
                         <img src={image} className='ImagePlan img-fluid' alt="" />
                     </div>

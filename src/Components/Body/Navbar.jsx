@@ -48,9 +48,9 @@ const Navbar = () => {
                   Projects
                 </a>
                 <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link to='/Projects'  className="dropdown-item">Stock Trading</Link></li>
-                  <li><a className="dropdown-item" href="#">Real Estate</a></li>
-                  <li><a className="dropdown-item" href="#">Crops</a></li>
+                  <li><Link to='/Projects?stock'  className="dropdown-item">Stock Trading</Link></li>
+                  <li><Link to='/Projects?realEstate' className="dropdown-item" href="#">Real Estate</Link></li>
+                  <li><Link to='/Projects?crops' className="dropdown-item" href="#">Crops</Link></li>
                 </ul>
               </li>
               <li className="nav-item">
