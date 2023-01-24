@@ -12,7 +12,7 @@ const Pricing = () => {
     return (
         <div>
 
-            <div className='fw-bold fs-5 display-3 lh-sm text-center container'>
+            <div className='fw-bold fs-5 display-3 lh-sm text-center container' id='pricing'>
                 <p className='text-primary'>Investment Plans</p>
             </div>
             <p className='textDemo text-center container' style={{ color: '#cfcfcf' }}>Investment Plans are designed for best interest of our clients. <br /> There are 07 investment plans which may suite you. Please choose one of the following plans.</p>

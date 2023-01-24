@@ -29,7 +29,7 @@ const ContactUs = () => {
 
     return (
         <div>
-            <div className='card' style={{ backgroundColor: '#161616' }}>
+            <div className='card' style={{ backgroundColor: '#161616' }} id='contact'>
                 <div className='row g-0'>
                     <div className='col-lg-4 mx-auto'>
                         <img src={forms} className=' imageContact' alt="" />

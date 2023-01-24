@@ -33,7 +33,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul className="navbar-nav ms-auto ">
-              <li className="nav-item  ">
+              <li className="nav-item  " href='#home'>
                 <Link to='/' className="nav-link NavbarLinks active m-1" aria-current="page">Home</Link>
               </li>
               {/* <li className="nav-item ">
@@ -49,8 +49,8 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
                   <li><Link to='/Projects?stock' className="dropdown-item">Stock Trading</Link></li>
-                  <li><Link to='/Projects?realEstate' className="dropdown-item" href="#">Real Estate</Link></li>
-                  <li><Link to='/Projects?crops' className="dropdown-item" href="#">Crops</Link></li>
+                  <li><Link to='/Projects?realEstate' className="dropdown-item" >Real Estate</Link></li>
+                  <li><Link to='/Projects?crops' className="dropdown-item" >Crops</Link></li>
                 </ul>
               </li>
               {/* <li className="nav-item">
@@ -60,19 +60,19 @@ const Navbar = () => {
                 <a className="nav-link NavbarLinks m-1" href="#">Funds</a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" >About</a>
+                <a className="nav-link NavbarLinks m-1" href='#about'>About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" >Investment Plans</a>
+                <a className="nav-link NavbarLinks m-1" href='#pricing'>Investment Plans</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" >FAQ</a>
+                <a className="nav-link NavbarLinks m-1" href='#faq'>FAQ</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" >Contact</a>
+                <a className="nav-link NavbarLinks m-1" href='#contact'>Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white m-1 btn btn-danger" href="#">Get Funded Today</a>
+                <a className="nav-link text-white m-1 btn btn-danger">Get Funded Today</a>
               </li>
 
             </ul>
