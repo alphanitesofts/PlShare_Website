@@ -48,7 +48,7 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" style={{ borderRadius: 30 }}>Select</button>
+                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
                                 </div>
                             </div>
                         </div>
@@ -247,7 +247,7 @@ const Pricing = () => {
             </div>
 
             <Register
-                shouldShow={shouldShow}
+                shouldShows={shouldShow}
                 close={oncloseModal}
             />
 

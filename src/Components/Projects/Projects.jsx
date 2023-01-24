@@ -46,7 +46,7 @@ const Projects = () => {
             <div>
 
 
-                <div className='row mt-5 mb-5 m-5' id='realEstate'>
+                <div className='row mt-5 mb-5 m-5' id='stock'>
                     <div className='col-lg-7'>
                         <h1 className='' style={{ color: '#cfcfcf' }}>Stocks and Shares Trading:</h1>
                         <p className='textDemo'>How Stock market works?</p>
@@ -60,7 +60,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='row mt-4 mb-5 m-5' id='crops'>
+                <div className='row mt-4 mb-5 m-5' id='realEstate'>
                     <div className='col-lg-5 containerx'>
                         <img src={image} className='ImagePlan img-fluid' alt="" />
                     </div>
@@ -72,7 +72,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='row mt-5 mb-5 m-5' id='stock'>
+                <div className='row mt-5 mb-5 m-5' id='crops'>
                     <div className='col-lg-7'>
                         <h1 className='' style={{ color: '#cfcfcf' }}> Agriculture:</h1>
                         <p className='textDemo'>PL Share invests in crops for high yields. Mainly investing in technology-related farms such as Greenhouse farming, can be accomplished using multiple types of structures, depending on the goal and needs of the farming operations. They vary depending on the system, the material used to cover them and the construction technique. <br />
@@ -97,7 +97,7 @@ const Projects = () => {
 
                 </div>
 
-                <div className='row mt-5 mb-5 m-5' id='stock'>
+                <div className='row mt-5 mb-5 m-5'>
 
                     <div className='col-lg-5 containerx'>
                         <img src={coins} className='ImagePlan img-fluid' alt="" />

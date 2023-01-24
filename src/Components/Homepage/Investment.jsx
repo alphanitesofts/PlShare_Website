@@ -5,7 +5,7 @@ import crops from './../SourceFiles/crops.jpg'
 import building from './../SourceFiles/building.jpg'
 import farming from './../SourceFiles/farming.jpg'
 import graphs from './../SourceFiles/graphs.png'
-
+import buildings from './../SourceFiles/buildings.jpeg'
 const Investment = () => {
     return (
         <div className='container'>
@@ -25,7 +25,7 @@ const Investment = () => {
 
                 <div className='col-lg-4 mb-3'>
                     <div className="card projectsCard" style={{ width: '18rem', borderRadius: '10px' }}>
-                        <img src={building} className="card-img-top investingPictures" alt="..." />
+                        <img src={buildings} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Real Estate</h5>
                             <p className="card-text"> We have 200+ properties in hand. We buy properties, renovate houses and sell them for a higher price in across USA. We hold $142 Million worth of properties</p>
