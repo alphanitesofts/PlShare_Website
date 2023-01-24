@@ -4,6 +4,7 @@ import coin from './../SourceFiles/coins.jpg'
 import crops from './../SourceFiles/crops.jpg'
 import building from './../SourceFiles/building.jpg'
 import farming from './../SourceFiles/farming.jpg'
+import graphs from './../SourceFiles/graphs.png'
 
 const Investment = () => {
     return (
@@ -14,7 +15,7 @@ const Investment = () => {
             <div className='row m-5'>
                 <div className='col-lg-4 mb-3'>
                     <div className="card  projectsCard" style={{ width: '18rem', borderRadius: '10px' }}>
-                        <img src={farming} className="card-img-top investingPictures" alt="..." />
+                        <img src={graphs} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Company Stocks and Shares</h5>
                             <p className="card-text">We invest in Blue chip companies and yield a great profits through dividends Biyearly and yearly. We invest in top 500 US companies with established businesses. </p>

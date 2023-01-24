@@ -3,6 +3,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import ab from '../SourceFiles/ab.jpg'
+import bc from '../SourceFiles/bc.png'
+import cd from '../SourceFiles/cd.png'
+import ef from '../SourceFiles/ef.png'
+import gh from '../SourceFiles/gh.png'
+import ij from '../SourceFiles/ij.png'
+
 const Reviews = () => {
 
     var settings = {
@@ -57,9 +64,9 @@ const Reviews = () => {
                         <div className="testimonial-item p-4 my-5">
                             <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
                             <div className="d-flex align-items-end mb-4">
-                                <img className="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style={{ width: 80, height: 80 }} />
+                                <img className="img-fluid flex-shrink-0" src={ab} style={{ width: 80, height: 80 }} />
                                 <div className="ms-4">
-                                    <h5 className="mb-1">Sarah Jones</h5>
+                                    <h5 className="mb-1 text-white">Jey Shetty</h5>
                                     <p className="m-0">Dalias, TX</p>
                                 </div>
                             </div>
@@ -71,9 +78,9 @@ const Reviews = () => {
                         <div className="testimonial-item p-4 my-5">
                             <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
                             <div className="d-flex align-items-end mb-4">
-                                <img className="img-fluid flex-shrink-0" src="img/dispatch.jpg.jpg" style={{ width: 80, height: 80 }} />
+                                <img className="img-fluid flex-shrink-0" src={bc} style={{ width: 80, height: 80 }} />
                                 <div className="ms-4">
-                                    <h5 className="mb-1">Erik Maqueda</h5>
+                                    <h5 className="mb-1 text-white">Erik Maqueda</h5>
                                     <p className="m-0">Chicago, IL</p>
                                 </div>
                             </div>
@@ -85,9 +92,9 @@ const Reviews = () => {
                         <div className="testimonial-item p-4 my-5">
                             <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
                             <div className="d-flex align-items-end mb-4">
-                                <img className="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style={{ width: 80, height: 80 }} />
+                                <img className="img-fluid flex-shrink-0" src={cd} style={{ width: 80, height: 80 }} />
                                 <div className="ms-4">
-                                    <h5 className="mb-1">Jared Thomson</h5>
+                                    <h5 className="mb-1 text-white">Jared Thomson</h5>
                                     <p className="m-0">Nashville, TN</p>
                                 </div>
                             </div>
@@ -99,9 +106,9 @@ const Reviews = () => {
                         <div className="testimonial-item p-4 my-5">
                             <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
                             <div className="d-flex align-items-end mb-4">
-                                <img className="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style={{ width: 80, height: 80 }} />
+                                <img className="img-fluid flex-shrink-0" src={ef} style={{ width: 80, height: 80 }} />
                                 <div className="ms-4">
-                                    <h5 className="mb-1">Caleb Khooger</h5>
+                                    <h5 className="mb-1 text-white">Caleb Khooger</h5>
                                     <p className="m-0">Los Angeles, CA</p>
                                 </div>
                             </div>
@@ -113,9 +120,9 @@ const Reviews = () => {
                         <div className="testimonial-item p-4 my-5">
                             <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
                             <div className="d-flex align-items-end mb-4">
-                                <img className="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style={{ width: 80, height: 80 }} />
+                                <img className="img-fluid flex-shrink-0" src={gh} style={{ width: 80, height: 80 }} />
                                 <div className="ms-4">
-                                    <h5 className="mb-1">Adam Kingston</h5>
+                                    <h5 className="mb-1 text-white">Adam Kingston</h5>
                                     <p className="m-0">Dalias, TX</p>
                                 </div>
                             </div>

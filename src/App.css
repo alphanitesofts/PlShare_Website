@@ -119,9 +119,8 @@ body {
 }
 
 .imageContact {
-  max-height: 400px;
-  width: 400px;
-  margin-top: 70px;
+  max-height: 850px;
+  width: 450px;
 }
 
 @media screen and (max-width: 880px) {
@@ -170,20 +169,20 @@ body {
 .card-title {
   color: #cfcfcf;
 }
-.shadowText{
-  color: #3EB8B4;
+.shadowText {
+  color: #3eb8b4;
   text-shadow: 4px 4px #000;
 }
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item {
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  animation: pulse 1s ease-out .5s;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  animation: pulse 1s ease-out 0.5s;
 }
 
 .testimonial-carousel .owl-dots {
@@ -201,7 +200,7 @@ body {
   background: var(--primary);
   border: 5px solid var(--light);
   border-radius: 15px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -209,12 +208,12 @@ body {
   border-color: var(--primary);
 }
 
-.bgheading{
-  background-color: #3EB8B4;
+.bgheading {
+  background-color: #3eb8b4;
   height: 400px;
   z-index: -10;
 }
-.headingtext{
+.headingtext {
   z-index: 10;
   padding-top: 160px;
 }

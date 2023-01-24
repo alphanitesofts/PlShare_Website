@@ -31,11 +31,11 @@ const ContactUs = () => {
         <div>
             <div className='card' style={{ backgroundColor: '#161616' }}>
                 <div className='row g-0'>
-                    <div className='col-lg-3 mx-auto'>
-                        <img src={formImg} className=' imageContact' alt="" />
+                    <div className='col-lg-4 mx-auto'>
+                        <img src={forms} className=' imageContact' alt="" />
                     </div>
 
-                    <div className='col-lg-6 me-4 ms-auto'>
+                    <div className='col-lg-7 me-4 ms-auto'>
 
                         <div className='card-body'>
                             <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-primary">Contact Us</h6>
