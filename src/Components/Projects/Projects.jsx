@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import image from '.././SourceFiles/graphing.jpg'
-import coins from '../SourceFiles/coins.jpg'
+import coins from '../SourceFiles/cryptocurrency.jpg'
 import agri from '../SourceFiles/agri.png'
+import agriculture from './../SourceFiles/fields.jpg'
 
 const Projects = () => {
 
@@ -73,16 +74,13 @@ const Projects = () => {
                 </div>
 
                 <div className='row mt-5 mb-5 m-5' id='crops'>
-                    <div className='col-lg-7'>
+                    <div className='col-lg-8'>
                         <h1 className='' style={{ color: '#cfcfcf' }}> Agriculture:</h1>
                         <p className='textDemo'>PL Share invests in crops for high yields. Mainly investing in technology-related farms such as Greenhouse farming, can be accomplished using multiple types of structures, depending on the goal and needs of the farming operations. They vary depending on the system, the material used to cover them and the construction technique. <br />
-
                             Simple greenhouse structures can be built at a relatively small expense, helping small, beginning farmers and smallholder farms in developing nations extend their season and produce more food. Simple greenhouse structures can be built for just a few thousand dollars depending on the size and materials needed. <br />
-
                             At the other extreme are high-tech controlled greenhouse structures replicated and managed at scale across multiple locations using farm management software. Commercial greenhouses can cost millions of dollars to build and are typically installed with high-tech management systems, including heat and humidity control, lighting, drip irrigation and fertigation, misting systems and automated benching systems for moving potted plants. <br />
                             <br />
                             Why do we invest in crops? <br />
-
                             ◯ Extreme weather conditions like windstorms, drought, cold snaps and heat waves are mitigated. <br />
                             ◯  Extend seasonality of crop production. <br />
                             ◯ Higher-yielding crops and stable crop production. <br />
@@ -91,18 +89,16 @@ const Projects = () => {
                             ◯ Water consumption, pesticide and fertilizer use can be reduced. <br />
                             ◯ Maximum profit in a small space. </p>
                     </div>
-                    <div className='col-lg-5 containerx'>
-                        <img src={agri} className='ImagePlan img-fluid' alt="" />
+                    <div className='col-lg-4 containerx'>
+                        <img src={agriculture} style={{ maxHeight: '650px' }} className='img-fluid' alt="" />
                     </div>
-
                 </div>
 
                 <div className='row mt-5 mb-5 m-5'>
-
-                    <div className='col-lg-5 containerx'>
-                        <img src={coins} className='ImagePlan img-fluid' alt="" />
+                    <div className='col-lg-4 containerx'>
+                        <img src={coins} className='img-fluid' style={{ maxHeight: '450px' }} alt="" />
                     </div>
-                    <div className='col-lg-7'>
+                    <div className='col-lg-8'>
                         <h1 className='' style={{ color: '#cfcfcf' }}> Cryptocurrency History:</h1>
                         <p className='textDemo'>For the first time the term "cryptocurrency" appeared in 2009, due to the appearance of the payment system "bitcoin", developed until now unknown man or maybe even a group of people under the pseudonym Satoshi Nakamoto (Eng. Satoshi Nakamoto). <br />
                             In the first year of bitcoin is not represented almost no value, the rate fluctuated between 700 - 1600 btc for 1 US dollar. Over the next four years the situation has changed many times, there were ups and downs. <br />

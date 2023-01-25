@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from './../SourceFiles/logopl.png'
 import { Link } from 'react-router-dom'
+import Crypto from '../Homepage/Crypto'
+import ShopItems from '../Modal/ShopItems'
 
 const Navbar = () => {
+  const [showShop, setShowShop] = useState(false)
+
+  function oncloseModal() {
+    setShowShop((prev) => !prev)
+  }
+
   return (
     <div>
       {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
@@ -25,7 +33,6 @@ const Navbar = () => {
 
       <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: '#202020' }}>
         <div className="container-fluid">
-          {/* <img className="me-3 d-inline-block" src="assets/img/gallery/logo.png" style={{ height: '50px' }} alt='logo' /> */}
           <a className="navbar-brand" style={{ color: '#3EB8B4' }} href="#"><img src={Logo} style={{ height: '50px', width: '170px' }} alt="" /></a>
           <button className="navbar-toggler" style={{ backgroundColor: '#3EB8B4' }} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             {/* <span className="navbar-toggler-icon" /> */}
@@ -36,12 +43,6 @@ const Navbar = () => {
               <li className="nav-item  " href='#home'>
                 <Link to='/' className="nav-link NavbarLinks active m-1" aria-current="page">Home</Link>
               </li>
-              {/* <li className="nav-item ">
-                <a className="nav-link NavbarLinks m-1" href="#">Approach</a>
-              </li> */}
-              {/* <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" href="#"></a>
-              </li> */}
 
               <li className="nav-item dropdown">
                 <a className="nav-link NavbarLinks m-1 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,12 +54,7 @@ const Navbar = () => {
                   <li><Link to='/Projects?crops' className="dropdown-item" >Crops</Link></li>
                 </ul>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" href="#">Markets</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link NavbarLinks m-1" href="#">Funds</a>
-              </li> */}
+
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#about'>About</a>
               </li>
@@ -67,6 +63,9 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#faq'>FAQ</a>
+              </li>
+              <li className="nav-item" style={{cursor:'pointer'}}>
+                <a className="nav-link NavbarLinks m-1" onClick={oncloseModal}>Shop</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#contact'>Contact</a>
@@ -79,9 +78,10 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-
-
+      <ShopItems
+        showItems={showShop}
+        close={oncloseModal}
+      />
     </div>
   )
 }
