@@ -1,5 +1,6 @@
 import { Modal } from 'pretty-modal'
 import React, { useState } from 'react'
+import apple from './../SourceFiles/apple.png'
 
 const ShopItems = ({ showItems, close }) => {
 
@@ -8,22 +9,15 @@ const ShopItems = ({ showItems, close }) => {
             <Modal open={showItems}>
                 <div>
 
-
-                    <div className="card mb-3" style={{ maxWidth: 540 }}>
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src="..." className="img-fluid rounded-start" alt="..." />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
+                    <div className="card mb-3" style={{ backgroundColor: '#232323' }}>
+                        <div className="card-body">
+                            <button className='btn btn-outline-danger btn-sm float-end' onClick={() => close()}>X</button>
+                            <h1 className="card-title">Buy Apple Products</h1>
+                            <p className="card-text">Coming soon!</p>
+                            <img src={apple} className="img-fluid rounded-start" alt="..." />
+                            {/* <p className="card-text"><small className="text-muted">You will be able to</small></p> */}
                         </div>
                     </div>
-
 
                 </div>
             </Modal>

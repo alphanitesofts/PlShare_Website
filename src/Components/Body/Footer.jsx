@@ -15,7 +15,7 @@ const Footer = () => {
                                 <div className="col-8 col-sm-9">
                                     <label className="visually-hidden" htmlFor="colFormLabel">Username</label>
                                     <div className="input-group">
-                                        <input className="form-control" id="colFormLabel" type="email" placeholder="Enter email address" />
+                                        <input className="form-control" style={{ backgroundColor: '#161616' }} id="colFormLabel" type="email" placeholder="Enter email address" />
                                     </div>
                                 </div>
                                 <div className="col-4 col-sm-3 text-end">
@@ -27,50 +27,50 @@ const Footer = () => {
                     <hr className="text-200" />
                     <div className="row justify-content-lg-between circle-blend-right circle-danger">
                         <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">WHY US</h6>
-                            <ul className="list-unstyled mb-md-4 mb-lg-0">
+                            <a className="my-4 fw-bold fs-0" href="#">Home</a>
+                            {/* <ul className="list-unstyled mb-md-4 mb-lg-0">
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Channel</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Engagement</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Scale</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Watch Demo</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">PRODUCT</h6>
-                            <ul className="list-unstyled mb-md-4 mb-lg-0">
+                            <a  href='#about' className="my-4 fw-bold fs-0">About</a>
+                            {/* <ul className="list-unstyled mb-md-4 mb-lg-0">
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Features</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Integrations</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Enterprise</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Solutions</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">RESOURCES</h6>
-                            <ul className="list-unstyled mb-md-4 mb-lg-0">
+                            <a href='#pricing' className="my-4 fw-bold fs-0">Investment Plans</a>
+                            {/* <ul className="list-unstyled mb-md-4 mb-lg-0">
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Partners</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Developers</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Apps</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Blogs</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
-                        <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">COMPANY</h6>
+                        {/* <div className="col-6 col-sm-4 col-lg-auto mb-3">
+                            <a className="my-4 fw-bold fs-0" href='#shop'>Shop</a>
                             <ul className="list-unstyled mb-md-4 mb-lg-0">
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">About Us</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Leadership</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Investor Relations</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">News</a></li>
                             </ul>
-                        </div>
+                        </div> */}
                         <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">PRICING</h6>
-                            <ul className="list-unstyled mb-md-4 mb-lg-0">
+                            <a href='#faq' className="my-4 fw-bold fs-0">FAQ</a>
+                            {/* <ul className="list-unstyled mb-md-4 mb-lg-0">
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Plans</a></li>
                                 <li className="mb-2"><a className="text-1100 text-decoration-none" href="#!">Paid vs. Free</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="col-6 col-sm-4 col-lg-auto mb-3">
-                            <h6 className="my-4 fw-bold fs-0">FOLLOW</h6>
+                            <a className="my-4 fw-bold fs-0" href='#contact'>Contact</a>
                             <ul className="list-unstyled list-inline my-3">
                                 <li className="list-inline-item me-3"><a className="text-decoration-none" href="#!"><img className="list-social-icon" src="assets/img/icons/facebook.svg" alt /></a></li>
                                 <li className="list-inline-item me-3"><a className="text-decoration-none" href="#!"><img className="list-social-icon" src="assets/img/icons/twitter.svg" alt /></a></li>

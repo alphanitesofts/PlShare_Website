@@ -40,7 +40,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul className="navbar-nav ms-auto ">
-              <li className="nav-item  " href='#home'>
+              <li className="nav-item  " href='#'>
                 <Link to='/' className="nav-link NavbarLinks active m-1" aria-current="page">Home</Link>
               </li>
 
@@ -61,17 +61,18 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#pricing'>Investment Plans</a>
               </li>
+              
+              <li className="nav-item" style={{ cursor: 'pointer' }}>
+                <a className="nav-link NavbarLinks m-1" onClick={oncloseModal}>Shop</a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#faq'>FAQ</a>
-              </li>
-              <li className="nav-item" style={{cursor:'pointer'}}>
-                <a className="nav-link NavbarLinks m-1" onClick={oncloseModal}>Shop</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#contact'>Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white m-1 btn btn-danger">Get Funded Today</a>
+                <a className="nav-link text-white m-1 btn btn-danger">Register Today</a>
               </li>
 
             </ul>

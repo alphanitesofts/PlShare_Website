@@ -18,10 +18,10 @@ const Home = () => {
             <Intro />
             <Partners />
             <Investment />
-            <AboutUs />
+            <Pricing />
             <Crypto />
             <Testimonials />
-            <Pricing />
+            <AboutUs />
             <Reviews />
             {/* <Quoets /> */}
             <FAQs />

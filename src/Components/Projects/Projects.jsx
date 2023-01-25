@@ -3,6 +3,9 @@ import image from '.././SourceFiles/graphing.jpg'
 import coins from '../SourceFiles/cryptocurrency.jpg'
 import agri from '../SourceFiles/agri.png'
 import agriculture from './../SourceFiles/fields.jpg'
+import build from './../SourceFiles/build.jpg'
+import graphs from './../SourceFiles/123.png'
+
 
 const Projects = () => {
 
@@ -28,7 +31,6 @@ const Projects = () => {
 
     useEffect(() => {
         getLink();
-        // scrollFunction();
         handleClickScroll()
     }, [type])
 
@@ -38,9 +40,9 @@ const Projects = () => {
             <div className='bgheading'>
                 <div className='headingtext'>
                     <div className='fw-bold fs-5 display-3 lh-sm text-center container'>
-                        <p style={{ color: '#161616' }}>Our Projects</p>
+                        <p className='text-white' style={{ fontSize: '60px' }}>Our Projects</p>
                     </div>
-                    <p className='textDemo text-center container' style={{ color: '#161616' }}>We invest in multiple categories. There are 07 investment plans which may suite you.<br /> Please choose one of the following plans.</p>
+                    <p style={{ fontSize: '20px' }} className='textDemo text-center container text-white'>We invest in three major categories i.e. Stocks and share trading, <br /> Real Estate Investment & Agriculture crops.</p>
                 </div>
             </div>
 
@@ -57,13 +59,13 @@ const Projects = () => {
                             We stand new companies by funding them as DMMs and trade shares afterwards on the longer run.</p>
                     </div>
                     <div className='col-lg-5 containerx'>
-                        <img src={image} className='ImagePlan img-fluid' alt="" />
+                        <img src={graphs} className='img-fluid ' style={{ marginTop: '100px' }} alt="" />
                     </div>
                 </div>
 
                 <div className='row mt-4 mb-5 m-5' id='realEstate'>
                     <div className='col-lg-5 containerx'>
-                        <img src={image} className='ImagePlan img-fluid' alt="" />
+                        <img src={build} className='ImagePlan img-fluid' alt="" />
                     </div>
                     <div className='col-lg-7'>
                         <h1 className='' style={{ color: '#cfcfcf' }}>Real Estate Investments:</h1>
