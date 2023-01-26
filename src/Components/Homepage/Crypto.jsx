@@ -4,7 +4,7 @@ import crytpo from './../SourceFiles/cryptos.png'
 const Crypto = () => {
     return (
         <div>
-            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center text-primary" id='about'>Why Tether (USDT)?</h6>
+            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center text-primary container" id='about'>Why Tether (USDT)?</h6>
             <div className='row mt-4 mb-5 m-5'>
                 <div className='col-lg-6'>
                     <div className='textDemo'>
@@ -13,10 +13,10 @@ const Crypto = () => {
                     <p >Interested in Tether (USDT), but not sure what it’s all about or where to even begin? No worries. This guide is designed to teach you everything you need to know about the project and get you ready to jump into the most user-friendly trading experience available on the market.</p>
                     </div>
                   </div>
-                <div className='col-lg-6 containerx'>
+                <div className='col-lg-6 ' style={{position:'relative'}}>
                     {/* <h5><b>Financial Planning</b></h5> */}
                     {/* <h1 className='' style={{ color: '#cfcfcf' }}></h1> */}
-                    <img src={crytpo} style={{height:'390px'}} className='ImagePlan img-fluid' alt="" />
+                    <img src={crytpo} className='img-fluid' alt="tether usdt" style={{borderRadius:'10px'}} />
                 </div>
             </div>
         </div>

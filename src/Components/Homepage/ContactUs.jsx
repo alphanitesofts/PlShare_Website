@@ -1,11 +1,8 @@
 import React, { useRef } from 'react'
-import Image from '.././SourceFiles/contact.jpg'
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import conference from './../SourceFiles/conference.jpg'
 import forms from './../SourceFiles/forms.jpg'
-import formImg from './../SourceFiles/Form.png'
 
 toast.configure()
 const ContactUs = () => {
@@ -32,7 +29,8 @@ const ContactUs = () => {
             <div className='card' style={{ backgroundColor: '#161616' }} id='contact'>
                 <div className='row g-0'>
                     <div className='col-lg-4 mx-auto'>
-                        <img src={forms} className=' imageContact' alt="" />
+                        <img src={forms} className='img-fluid ' alt="" />
+                        {/* imageContact */}
                     </div>
 
                     <div className='col-lg-7 me-4 ms-auto'>
@@ -78,15 +76,12 @@ const ContactUs = () => {
 
                     </div>
                 </div>
-
+{/* 
                 <div className='row mt-4'>
                     <div className='col-lg-12'>
-                        {/* <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Heaven mall&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameBorder={0} style={{ border: 0, width: '100%', height: 290 }} allowFullScreen /> */}
-
-
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10995.807855635443!2d77.58463265555102!3d12.99708773267609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2s!4v1674133377780!5m2!1sen!2s" frameBorder={0} style={{ border: 0, width: '100%', height: 290 }} allowFullScreen referrerPolicy="no-referrer-when-downgrade" />
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>

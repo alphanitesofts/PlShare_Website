@@ -1,20 +1,17 @@
 import React from 'react'
-import Image from './../SourceFiles/contact.jpg'
-import coin from './../SourceFiles/coins.jpg'
 import crops from './../SourceFiles/crops.jpg'
-import building from './../SourceFiles/building.jpg'
-import farming from './../SourceFiles/farming.jpg'
 import graphs from './../SourceFiles/graphs.png'
 import buildings from './../SourceFiles/buildings.jpeg'
+
 const Investment = () => {
     return (
         <div className='container'>
 
-            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center headx" style={{ marginTop: '100px' }}>Where We Invest?</h6>
+            <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center" style={{ marginTop: '100px', color: '#3eb8b4' }}>Where We Invest?</h6>
 
-            <div className='row m-5'>
+            <div className='row m-4'>
                 <div className='col-lg-4 mb-3'>
-                    <div className="card  projectsCard" style={{ width: '18rem', borderRadius: '10px' }}>
+                    <div className="card  projectsCard" >
                         <img src={graphs} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Company Stocks and Shares</h5>
@@ -24,7 +21,7 @@ const Investment = () => {
                 </div>
 
                 <div className='col-lg-4 mb-3'>
-                    <div className="card projectsCard" style={{ width: '18rem', borderRadius: '10px' }}>
+                    <div className="card projectsCard" >
                         <img src={buildings} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Real Estate</h5>
@@ -33,9 +30,8 @@ const Investment = () => {
                     </div>
                 </div>
 
-
                 <div className='col-lg-4 mb-3'>
-                    <div className="card projectsCard" style={{ width: '18rem', borderRadius: '10px' }}>
+                    <div className="card projectsCard" >
                         <img src={crops} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Agriculture</h5>
@@ -45,7 +41,6 @@ const Investment = () => {
                 </div>
 
             </div>
-
         </div>
     )
 }

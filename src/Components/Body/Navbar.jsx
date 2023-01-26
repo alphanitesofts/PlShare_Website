@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Logo from './../SourceFiles/logopl.png'
 import { Link } from 'react-router-dom'
-import Crypto from '../Homepage/Crypto'
 import ShopItems from '../Modal/ShopItems'
 
 const Navbar = () => {
@@ -72,7 +71,7 @@ const Navbar = () => {
                 <a className="nav-link NavbarLinks m-1" href='#contact'>Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white m-1 btn btn-danger">Register Today</a>
+                <a className="nav-link text-white m-1 btn btn-outline-primary ps-3 pe-3" style={{borderRadius:30}}  target="_blank" href="https://registration.plshare.com/">Register Today</a>
               </li>
 
             </ul>

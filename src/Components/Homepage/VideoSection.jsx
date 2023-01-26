@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
 import video from '..//SourceFiles/promotion.mp4'
 const VideoSection = () => {
   return (

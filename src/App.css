@@ -3,6 +3,11 @@
   --pretty-modal-modal-container-border-radius: 10px;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .VideoSection {
   width: 100%;
   height: 600px;
@@ -23,24 +28,6 @@
   color: #3eb8b4;
 }
 
-.btn-danger,
-.btn-danger:active,
-.btn-danger:visited {
-  background-color: #3eb8b4 !important;
-}
-.btn-danger:hover {
-  background-color: #000 !important;
-}
-
-.description {
-  color: #3eb8b4;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
 .textDemo {
   text-align: justify;
 }
@@ -57,18 +44,9 @@ body {
   }
 }
 
-.containerx {
-  position: relative;
-}
-
 .textBlock {
   position: absolute;
-  /* bottom: 280px;
-  right: 20px; */
-  /* background-color: black; */
   color: #000;
-  /* padding-left: 20px;
-  padding-right: 20px; */
 }
 
 /* PRICING */
@@ -110,6 +88,8 @@ body {
   background-color: #202020;
   color: #cfcfcd;
   z-index: 1000;
+  width: 18rem;
+  border-radius: 10px;
 }
 
 .projectsCard:hover {
@@ -123,6 +103,13 @@ body {
   -moz-box-shadow: 8px 4px 28px 6px rgba(62, 184, 180, 0.56);
 }
 
+.investingPictures {
+  height: 200px;
+  max-width: 290px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* contact us */
 .imageContact {
   max-height: 850px;
   width: 450px;
@@ -133,6 +120,13 @@ body {
     width: 400px;
     height: 570px;
   }
+}
+
+/* testimonials */
+
+.shadowText {
+  color: #3eb8b4;
+  text-shadow: 4px 4px #000;
 }
 
 .backgroundImage {
@@ -147,23 +141,10 @@ body {
   justify-content: center;
 }
 
-.investingPictures {
-  height: 200px;
-  max-width: 290px;
-  border-radius: 10px 10px 0 0;
-}
-
-.headx {
-  color: #3eb8b4;
-}
-
-.bodyx {
+/* .bodyx {
   background-color: #070b0e;
-}
+} */
 
-.fontx {
-  color: #cfcfcf;
-}
 .partnerCard {
   background-color: #202020;
   border-radius: 10px;
@@ -174,12 +155,8 @@ body {
 .card-title {
   color: #cfcfcf;
 }
-.shadowText {
-  color: #3eb8b4;
-  text-shadow: 4px 4px #000;
-}
 
-/*** Testimonial ***/
+/*** reviews ***/
 .testimonial-carousel .owl-item .testimonial-item {
   position: relative;
   transition: 0.5s;
@@ -208,28 +185,33 @@ body {
   transition: 0.5s;
 }
 
-.testimonial-carousel .owl-dot.active {
-  background: var(--light);
-  border-color: var(--primary);
-}
+/* heading of projects */
 
 .bgheading {
   background-color: #3eb8b4;
   height: 400px;
   z-index: -10;
 }
+
+
+@media screen and (max-width: 880px) {
+  .bgheading {
+    background-color: #3eb8b4;
+  height: 550px;
+  z-index: -10;
+  }
+}
+
+
 .headingtext {
   z-index: 10;
   padding-top: 160px;
 }
 
-/* modal of loading */
+/* modal of register */
 
 .form-input {
   position: relative;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .icon {

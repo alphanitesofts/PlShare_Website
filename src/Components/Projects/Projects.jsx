@@ -38,7 +38,7 @@ const Projects = () => {
         <div>
 
             <div className='bgheading'>
-                <div className='headingtext'>
+                <div className='headingtext container'>
                     <div className='fw-bold fs-5 display-3 lh-sm text-center container'>
                         <p className='text-white' style={{ fontSize: '60px' }}>Our Projects</p>
                     </div>
@@ -58,14 +58,14 @@ const Projects = () => {
                             DMMs apply their market experience and judgment of dynamic trading conditions, macroeconomic news and industry-specific intelligence, to inform their decisions. A valuable resource for our listed-company community, DMMs offer insights, while making capital commitments, maintaining market integrity, and supporting price discovery. <br />
                             We stand new companies by funding them as DMMs and trade shares afterwards on the longer run.</p>
                     </div>
-                    <div className='col-lg-5 containerx'>
+                    <div className='col-lg-5' style={{position:'relative'}}>
                         <img src={graphs} className='img-fluid ' style={{ marginTop: '100px' }} alt="" />
                     </div>
                 </div>
 
                 <div className='row mt-4 mb-5 m-5' id='realEstate'>
-                    <div className='col-lg-5 containerx'>
-                        <img src={build} className='ImagePlan img-fluid' alt="" />
+                    <div className='col-lg-5' style={{position:'relative'}}>
+                        <img src={build} className=' img-fluid' alt="" />
                     </div>
                     <div className='col-lg-7'>
                         <h1 className='' style={{ color: '#cfcfcf' }}>Real Estate Investments:</h1>
@@ -91,13 +91,13 @@ const Projects = () => {
                             ◯ Water consumption, pesticide and fertilizer use can be reduced. <br />
                             ◯ Maximum profit in a small space. </p>
                     </div>
-                    <div className='col-lg-4 containerx'>
+                    <div className='col-lg-4' style={{position:'relative'}}>
                         <img src={agriculture} style={{ maxHeight: '650px' }} className='img-fluid' alt="" />
                     </div>
                 </div>
 
                 <div className='row mt-5 mb-5 m-5'>
-                    <div className='col-lg-4 containerx'>
+                    <div className='col-lg-4' style={{position:'relative'}}>
                         <img src={coins} className='img-fluid' style={{ maxHeight: '450px' }} alt="" />
                     </div>
                     <div className='col-lg-8'>

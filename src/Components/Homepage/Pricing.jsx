@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Register from '../Modal/Register'
+
 const Pricing = () => {
 
     const [shouldShow, setShouldShow] = useState(false)
@@ -48,7 +48,7 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -108,7 +109,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -141,7 +143,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -171,7 +174,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -201,7 +205,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -235,7 +240,8 @@ const Pricing = () => {
                                     </svg> 1 Year Contract</li>
                                 </ul>
                                 <div className="cardx-body text-center ">
-                                    <button className="btn btn-outline-primary mt-2" onClick={oncloseModal} style={{ borderRadius: 30 }}>Select</button>
+                                    <a className="btn btn-outline-primary mt-2" target="_blank" href="https://registration.plshare.com/ "style={{ borderRadius: 30 }}>Select</a>
+
                                 </div>
                             </div>
                         </div>
@@ -243,10 +249,10 @@ const Pricing = () => {
                 </div>
             </div>
 
-            <Register
+            {/* <Register
                 shouldShows={shouldShow}
                 close={oncloseModal}
-            />
+            /> */}
 
         </div >
     )
