@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '.././SourceFiles/graphing.jpg'
+import image from '.././SourceFiles/Images/graphing.jpg'
 const AboutUs = () => {
     return (
         <div>

@@ -1,38 +1,35 @@
 import React, { useEffect, useState } from 'react'
-import image from '.././SourceFiles/graphing.jpg'
-import coins from '../SourceFiles/cryptocurrency.jpg'
-import agri from '../SourceFiles/agri.png'
-import agriculture from './../SourceFiles/fields.jpg'
-import build from './../SourceFiles/build.jpg'
-import graphs from './../SourceFiles/123.png'
+import coins from '../SourceFiles/Images/cryptocurrency.jpg'
+import agriculture from './../SourceFiles/Images/fields.jpg'
+import build from './../SourceFiles/Images/build.jpg'
+import graphs from './../SourceFiles/Images/123.png'
 
 
 const Projects = () => {
 
-    const [type, setType] = useState('')
+    const [type, setType] = useState()
 
     const getLink = () => {
         const url = `${window.location.href}`;
         const part = url.split("?");
         const path = part[1];
-        setType(path);
+        handleClickScroll(path);
     }
 
-    const handleClickScroll = () => {
-        const element = document.getElementById(`${type}`);
-        if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
+    const handleClickScroll = (path) => {
+        const element = document.getElementById(`${path}`).offsetTop;;
+        window.scrollTo({
+            top: element-100, 
+            behavior: "smooth"
+        });
     };
 
 
-    console.log(type)
 
     useEffect(() => {
         getLink();
-        handleClickScroll()
-    }, [type])
+        // handleClickScroll()
+    }, [])
 
     return (
         <div>
@@ -58,13 +55,13 @@ const Projects = () => {
                             DMMs apply their market experience and judgment of dynamic trading conditions, macroeconomic news and industry-specific intelligence, to inform their decisions. A valuable resource for our listed-company community, DMMs offer insights, while making capital commitments, maintaining market integrity, and supporting price discovery. <br />
                             We stand new companies by funding them as DMMs and trade shares afterwards on the longer run.</p>
                     </div>
-                    <div className='col-lg-5' style={{position:'relative'}}>
+                    <div className='col-lg-5' style={{ position: 'relative' }}>
                         <img src={graphs} className='img-fluid ' style={{ marginTop: '100px' }} alt="" />
                     </div>
                 </div>
 
                 <div className='row mt-4 mb-5 m-5' id='realEstate'>
-                    <div className='col-lg-5' style={{position:'relative'}}>
+                    <div className='col-lg-5' style={{ position: 'relative' }}>
                         <img src={build} className=' img-fluid' alt="" />
                     </div>
                     <div className='col-lg-7'>
@@ -91,13 +88,13 @@ const Projects = () => {
                             ◯ Water consumption, pesticide and fertilizer use can be reduced. <br />
                             ◯ Maximum profit in a small space. </p>
                     </div>
-                    <div className='col-lg-4' style={{position:'relative'}}>
+                    <div className='col-lg-4' style={{ position: 'relative' }}>
                         <img src={agriculture} style={{ maxHeight: '650px' }} className='img-fluid' alt="" />
                     </div>
                 </div>
 
                 <div className='row mt-5 mb-5 m-5'>
-                    <div className='col-lg-4' style={{position:'relative'}}>
+                    <div className='col-lg-4' style={{ position: 'relative' }}>
                         <img src={coins} className='img-fluid' style={{ maxHeight: '450px' }} alt="" />
                     </div>
                     <div className='col-lg-8'>

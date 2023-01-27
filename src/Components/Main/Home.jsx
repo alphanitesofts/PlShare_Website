@@ -10,6 +10,7 @@ import FAQs from '../Homepage/FAQs'
 import ContactUs from '../Homepage/ContactUs'
 import Investment from '../Homepage/Investment'
 import Crypto from '../Homepage/Crypto'
+import Project from '../Homepage/Project'
 
 const Home = () => {
     return (
@@ -22,8 +23,9 @@ const Home = () => {
             <Crypto />
             <Testimonials />
             <AboutUs />
-            <Reviews />
             {/* <Quoets /> */}
+            <Project/>
+            <Reviews />
             <FAQs />
             <ContactUs />
         </div>

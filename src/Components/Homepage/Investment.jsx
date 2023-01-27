@@ -1,7 +1,7 @@
 import React from 'react'
-import crops from './../SourceFiles/crops.jpg'
-import graphs from './../SourceFiles/graphs.png'
-import buildings from './../SourceFiles/buildings.jpeg'
+import crops from './../SourceFiles/Images/crops.jpg'
+import graphs from './../SourceFiles/Images/graphs.png'
+import buildings from './../SourceFiles/Images/buildings.jpeg'
 
 const Investment = () => {
     return (

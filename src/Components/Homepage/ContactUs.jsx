@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import forms from './../SourceFiles/forms.jpg'
+import forms from './../SourceFiles/Images/forms.jpg'
 
 toast.configure()
 const ContactUs = () => {

@@ -1,12 +1,12 @@
 import { Modal } from 'pretty-modal'
 import React, { useState } from 'react'
-import apple from './../SourceFiles/apple.png'
+import apple from './../SourceFiles/Images/apple.png'
 
 const ShopItems = ({ showItems, close }) => {
 
     return (
         <div>
-            <Modal open={showItems}>
+            <Modal open={showItems} >
                 <div>
 
                     <div className="card mb-3" style={{ backgroundColor: '#232323' }}>

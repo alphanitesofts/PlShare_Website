@@ -1,6 +1,7 @@
 :root {
   --pretty-modal-modal-container-background-color: #202020;
   --pretty-modal-modal-container-border-radius: 10px;
+  --pretty-modal-modal-container-padding: -60px;
 }
 
 html,
@@ -10,13 +11,13 @@ body {
 
 .VideoSection {
   width: 100%;
-  height: 600px;
+  height: 850px;
 }
 
 @media screen and (max-width: 880px) {
   .VideoSection {
-    height: 400px;
-    width: 390px;
+    width: 100%;
+    height: 380px;
   }
 }
 
@@ -87,7 +88,6 @@ body {
 .projectsCard {
   background-color: #202020;
   color: #cfcfcd;
-  z-index: 1000;
   width: 18rem;
   border-radius: 10px;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .backgroundImage {
-  background-image: url(./Components/SourceFiles/hands.jpg);
+  background-image: url(./Components/SourceFiles/Images/hands.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -189,23 +189,19 @@ body {
 
 .bgheading {
   background-color: #3eb8b4;
-  height: 400px;
-  z-index: -10;
+  height: 350px;
+  margin-top: 5em;
 }
-
 
 @media screen and (max-width: 880px) {
   .bgheading {
     background-color: #3eb8b4;
-  height: 550px;
-  z-index: -10;
+    height: 550px;
   }
 }
 
-
 .headingtext {
-  z-index: 10;
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 /* modal of register */

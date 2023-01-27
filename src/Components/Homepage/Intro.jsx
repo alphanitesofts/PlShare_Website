@@ -1,5 +1,5 @@
 import React from 'react'
-import Phone from './../SourceFiles/phone.png'
+import Phone from './../SourceFiles/Images/phone.png'
 
 const Intro = () => {
   return (
@@ -15,7 +15,7 @@ const Intro = () => {
               <h6 className="fs-0 text-uppercase fw-bold text-primary">Power Level Share</h6>
               <h6 className="fw-bold fs-3 fs-lg-5 lh-sm" style={{ color: '#cfcfcf' }}>Invest Today for <br /> Secured Tomorrow</h6>
               <p className="my-3 fs-1 pe-xl-8 textDemo" >PL-Share is a premium app for investor and clients. Undoubtedly, it is one of the largest and most popular platform. The app provides professionally managed portfolios using a selection of plans diversifying your investment into multiple fields to generate handsome profit margins.</p>
-              {/* <a className="btn hover-top btn-collab" href="#" role="button">Learn more</a> */}
+              <a className="btn hover-top btn-collab" href={require('./../SourceFiles/PLshare.apk')} download='PLshare' role="button">Download App</a>
             </div>
           </div>
         </div>

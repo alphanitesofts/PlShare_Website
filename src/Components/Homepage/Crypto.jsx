@@ -1,5 +1,5 @@
 import React from 'react'
-import crytpo from './../SourceFiles/cryptos.png'
+import crytpo from './../SourceFiles/Images/cryptos.png'
 
 const Crypto = () => {
     return (

@@ -3,12 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import ab from '../SourceFiles/ab.jpg'
-import bc from '../SourceFiles/bc.png'
-import cd from '../SourceFiles/cd.png'
-import ef from '../SourceFiles/ef.png'
-import gh from '../SourceFiles/gh.png'
-import ij from '../SourceFiles/ij.png'
+import ab from '../SourceFiles/Images/ab.jpg'
+import bc from '../SourceFiles/Images/bc.png'
+import cd from '../SourceFiles/Images/cd.png'
+import ef from '../SourceFiles/Images/ef.png'
+import gh from '../SourceFiles/Images/gh.png'
+import ij from '../SourceFiles/Images/ij.png'
 
 const Reviews = () => {
 

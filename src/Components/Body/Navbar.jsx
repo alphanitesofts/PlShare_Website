@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from './../SourceFiles/logopl.png'
+import Logo from './../SourceFiles/Images/logopl.png'
 import { Link } from 'react-router-dom'
 import ShopItems from '../Modal/ShopItems'
 
@@ -30,7 +30,7 @@ const Navbar = () => {
       </nav> */}
 
 
-      <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: '#202020' }}>
+      <nav className="navbar navbar-expand-lg fixed-top" style={{ backgroundColor: '#202020' }}>
         <div className="container-fluid">
           <a className="navbar-brand" style={{ color: '#3EB8B4' }} href="#"><img src={Logo} style={{ height: '50px', width: '170px' }} alt="" /></a>
           <button className="navbar-toggler" style={{ backgroundColor: '#3EB8B4' }} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item  " href='#'>
-                <Link to='/' className="nav-link NavbarLinks active m-1" aria-current="page">Home</Link>
+                <a href='#' className="nav-link NavbarLinks active m-1" aria-current="page">Home</a>
               </li>
 
               <li className="nav-item dropdown">
@@ -48,9 +48,9 @@ const Navbar = () => {
                   Projects
                 </a>
                 <ul className="dropdown-menu" style={{ backgroundColor: '#202020' }} aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link to='/Projects?stock' className="dropdown-item">Stock Trading</Link></li>
-                  <li><Link to='/Projects?realEstate' className="dropdown-item" >Real Estate</Link></li>
-                  <li><Link to='/Projects?crops' className="dropdown-item" >Crops</Link></li>
+                  <li><a href="#stock" className="dropdown-item">Stock Trading</a></li>
+                  <li><a href='#realEstate' className="dropdown-item" >Real Estate</a></li>
+                  <li><a href='#crops' className="dropdown-item" >Crops</a></li>
                 </ul>
               </li>
 
@@ -60,9 +60,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#pricing'>Investment Plans</a>
               </li>
-              
+
               <li className="nav-item" style={{ cursor: 'pointer' }}>
-                <a className="nav-link NavbarLinks m-1" onClick={oncloseModal}>Shop</a>
+                <a className="nav-link NavbarLinks m-1" onClick={oncloseModal} data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Shop</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link NavbarLinks m-1" href='#faq'>FAQ</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <a className="nav-link NavbarLinks m-1" href='#contact'>Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white m-1 btn btn-outline-primary ps-3 pe-3" style={{borderRadius:30}}  target="_blank" href="https://registration.plshare.com/">Register Today</a>
+                <a className="nav-link text-white m-1 btn btn-outline-primary ps-3 pe-3" style={{ borderRadius: 30 }} target="_blank" href="https://registration.plshare.com/">Register Today</a>
               </li>
 
             </ul>
