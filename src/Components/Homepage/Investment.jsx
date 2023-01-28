@@ -9,9 +9,9 @@ const Investment = () => {
 
             <h6 className="fw-bold fs-5 display-3 lh-sm mb-5 text-center" style={{ marginTop: '100px', color: '#3eb8b4' }}>Where We Invest?</h6>
 
-            <div className='row m-4'>
+            <div className='row'>
                 <div className='col-lg-4 mb-3'>
-                    <div className="card  projectsCard" >
+                    <div className="card  projectsCard mx-auto" >
                         <img src={graphs} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Company Stocks and Shares</h5>

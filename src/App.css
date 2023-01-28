@@ -90,6 +90,7 @@ body {
   color: #cfcfcd;
   width: 18rem;
   border-radius: 10px;
+  margin: auto;
 }
 
 .projectsCard:hover {
