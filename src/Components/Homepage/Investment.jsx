@@ -11,7 +11,7 @@ const Investment = () => {
 
             <div className='row'>
                 <div className='col-lg-4 mb-3'>
-                    <div className="card  projectsCard mx-auto" >
+                    <div className="card  projectsCard" >
                         <img src={graphs} className="card-img-top investingPictures" alt="..." />
                         <div className="card-body">
                             <h5 className='card-title'>Company Stocks and Shares</h5>
