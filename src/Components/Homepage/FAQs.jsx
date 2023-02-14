@@ -37,14 +37,14 @@ const FAQs = () => {
                                         <div className="accordion-body pt-0 px-2">Every client can invest in our company through USDT and get withdraw in USDT wallets attached with your app account. All Bonuses and Rewards are subject to paid plans only. There is a withdraw limit of $20.</div>
                                     </div>
                                 </div>
-                                <div className="accordion-item border-top">
+                                {/* <div className="accordion-item border-top">
                                     <h2 className="accordion-header" id="heading4">
                                         <button className="accordion-button px-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span className="mb-0 fw-bold text-start fs-1 text-1000 text-white">Why there are only 22 working days in a month?</span></button>
                                     </h2>
                                     <div className="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4" data-bs-parent="#accordionExample">
                                         <div className="accordion-body pt-0 px-2">All investments are paid on working days therefore, Saturday and Sunday are off. </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="accordion-item border-top">
                                     <h2 className="accordion-header" id="heading5">
                                         <button className="accordion-button px-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span className="mb-0 fw-bold text-start fs-1 text-1000 text-white">Is the app workable while you got no internet?</span></button>
